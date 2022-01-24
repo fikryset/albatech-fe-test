@@ -1,0 +1,70 @@
+.container {
+  flex-flow: row wrap;
+  margin-top: 60px;
+}
+
+.title {
+  flex: 0 0 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #c4c4c4;
+}
+
+.subTitle {
+  flex: 0 0 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0;
+  color: #272727;
+}
+
+.testimonialImg {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.testimonialImgSmall {
+  display: none;
+}
+
+.clientLogoContainer {
+  display: flex;
+  padding: 0 170px;
+  justify-content: space-evenly;
+}
+
+.clientLogoContainer img {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonialImg {
+    display: none;
+  }
+  .testimonialImgSmall {
+    display: block;
+    padding: 20px;
+    width: 85%;
+  }
+
+  .clientLogoContainer {
+    overflow: scroll;
+    padding: 0 20px;
+    justify-content: left;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .clientLogoContainer::-webkit-scrollbar {
+    display: none;
+  }
+}

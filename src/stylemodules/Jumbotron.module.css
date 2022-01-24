@@ -1,0 +1,56 @@
+.container {
+  margin-top: 110px;
+  position: relative;
+  text-align: right;
+}
+.jumbotronImg {
+  width: 60%;
+}
+.jumbotronTextLarge {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  text-align: left;
+  font-family: "Source Sans Pro";
+}
+.jumbotronTextLarge span {
+  font-size: 2.5em;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.bookBtn {
+  font-size: 1em;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 20px 38px;
+  background-color: #ffce07;
+  border-radius: 30px;
+  font-family: inherit;
+  margin: 20px 0px;
+}
+
+.bookBtn:hover {
+  cursor: pointer;
+}
+
+.jumbotronTextSmall {
+  display: none;
+  font-family: "Source Sans Pro";
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotronImg {
+    width: 100%;
+  }
+
+  .jumbotronTextLarge {
+    display: none;
+  }
+
+  .jumbotronTextSmall {
+    display: block;
+    text-align: center;
+  }
+}

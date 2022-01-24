@@ -1,0 +1,64 @@
+.container {
+  margin: 60px 170px;
+}
+
+.aboutFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  border-top: 1px solid #c4c4c4;
+  font-family: "Nunito";
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid #c4c4c4;
+  font-family: "Nunito";
+}
+.partTitle {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+}
+
+.socialIconsContainer {
+  display: flex;
+}
+
+.socialIcons {
+  font-size: 1.5em;
+  margin-right: 30px;
+}
+
+.brand,
+.contactInfo {
+  flex: 0 0 35%;
+}
+
+.brandImg {
+  width: 124px;
+}
+
+.websiteNavigation a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 10px;
+  }
+  .aboutFooter {
+    display: none;
+  }
+  .bottomFooter {
+    padding-top: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .bottomFooter div {
+    margin-bottom: 10px;
+  }
+}

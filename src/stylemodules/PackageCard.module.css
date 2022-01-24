@@ -1,0 +1,52 @@
+.cardBox {
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 28%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.cardBox p {
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffce07;
+}
+
+.iconArrow {
+  display: none;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Nunito";
+  font-size: 14px;
+  line-height: 150%;
+  color: #272727;
+}
+
+.cardBox:hover {
+  border: 1px solid #ffce07;
+  cursor: pointer;
+}
+
+.cardBox:hover .iconArrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cardBox {
+    width: 100%;
+    margin: 10px 10px;
+  }
+}
