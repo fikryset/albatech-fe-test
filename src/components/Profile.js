@@ -15,10 +15,10 @@ const Profile = () => {
       <div>
         <p>token: {token}</p>
       </div>
-      <p>
-        i don't know what to put here beside the required one, but this is
-        working
-      </p>
+//       <p>
+//         i don't know what to put here beside the required one, but this is
+//         working
+//       </p>
     </section>
   );
 };
